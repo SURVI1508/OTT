@@ -1,0 +1,31 @@
+.updatedToday__main__div__container__big__Screen {
+    /* border: 2PX solid red; */
+    max-width: 100%;
+}
+
+.topSeries__image {
+    height: 250px;
+    width: 158px;
+    background: #000;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.topSeries__slide__two {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+
+.topSeries__big__slide__card {
+    width: 350px;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.topSeries__big__slide__card__info {
+    padding: 0.3rem 1rem;
+    box-sizing: border-box;
+}

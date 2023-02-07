@@ -1,0 +1,14 @@
+.updatedToday__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid green; */
+    padding-left: 2rem;
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+.updatedToday__main__div__container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}

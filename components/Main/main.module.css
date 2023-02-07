@@ -1,0 +1,22 @@
+.main__main__div {
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    background: #ffffff;
+    padding: 2rem 0;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+
+}
+
+.main__main__div__container {
+    width: 80%;
+    /* border: 2px solid red; */
+    background: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}

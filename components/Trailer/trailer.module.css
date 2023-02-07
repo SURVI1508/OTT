@@ -1,0 +1,72 @@
+.updatedToday__main__div {
+    max-width: 100% !important;
+}
+
+.updatedToday__main__div__container {
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction:row;
+    /* border: 2px solid red; */
+    max-width: 100% !important;
+}
+
+.updatedToday__main__div__container__big__Screen {
+    height: 100% !important;
+    width: 45%;
+    /* background: #000; */
+    border-radius: 0.8rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.big__Screen__info {
+    height: auto;
+    width: 100%;
+    background: #ffffff;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.updatedToday__main__div__container__small__Screen {
+    height: auto;
+    width: 55%;
+    /* background: #f3ff4d; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small__Screen__item {
+    width: 90%;
+    background: #ffffff;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+}
+
+.small__Screen__item__img {
+    height: 125px;
+    width: 125px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #000;
+}
+
+.small__Screen__item__img .Screen__img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.small__Screen__item__info {
+    max-width: 70%;
+}

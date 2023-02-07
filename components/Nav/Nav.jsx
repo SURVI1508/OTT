@@ -19,11 +19,7 @@ const Navigeter = () => {
         <div className={styles.nav__main__div}>
             <div className={styles.nav__logo}>
                 <div className={styles.nav__menu} onClick={handleShow}><HiMenuAlt1 /></div>
-
-                {/* <Button variant="primary" onClick={handleShow} className="me-2">
-                   Show
-                </Button> */}
-                <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas show={show} onHide={handleClose} placement="top">
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                     </Offcanvas.Header>
