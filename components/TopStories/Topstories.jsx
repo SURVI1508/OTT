@@ -13,7 +13,7 @@ const Topstories = () => {
             <div className={styles.updatedToday__main__div__container__big__Screen}>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={50}
+                    spaceBetween={30}
                     slidesPerView={6}
                     navigation
                     // pagination={{ clickable: true }}
@@ -82,7 +82,7 @@ const Topstories = () => {
             <div className={styles.topSeries__slide__two}>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={50}
+                    spaceBetween={10}
                     slidesPerView={3}
                     navigation
                     // pagination={{ clickable: true }}

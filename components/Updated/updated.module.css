@@ -12,3 +12,11 @@
     flex-direction: column;
     /* justify-content: space-around; */
 }
+
+@media (max-width:720px) {
+    .updatedToday__main__div {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}

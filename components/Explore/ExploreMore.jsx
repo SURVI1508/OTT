@@ -3,10 +3,9 @@ import Image from 'next/image'
 const ExploreMore = () => {
     return (
         <div className={styles.main__main__div}>
-
             <h3>EXPLORE MORE</h3>
             <div className={styles.main__main__div__container}>
-                <div>
+                <div className={styles.explore__more__card__container}>
                     <div className={styles.topSeries__big__slide__card}>
                         <div className={styles.topSeries__big__slide__card__img}>
                             <Image

@@ -60,3 +60,21 @@
     align-items: center;
     gap: 2.5rem;
 }
+
+@media (max-width:720px) {
+    .nav__main__div {
+        max-width: 100%;
+
+        padding: 0.1rem 1rem;
+        /* position: fixed; */
+
+    }
+
+    .nav__search {
+        display: none;
+    }
+    .nav__links {
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Trailers = (props) => {
     return (
         <div className={styles.updatedToday__main__div}>
-            <h3></h3><br />
+            <h3>UPDATED TODAY</h3><br />
             <div className={styles.updatedToday__main__div__container}>
                 <div className={styles.updatedToday__main__div__container__big__Screen}>
                     <Image
@@ -26,13 +26,30 @@ const Trailers = (props) => {
                                 className={styles.Screen__img}
                                 src="/images/primeSeries.webp"
                                 alt="poster"
-                                height={125}
+                                height={3}
                                 width={125}
                             />
                         </div>
                         <div className={styles.small__Screen__item__info}>
-                            <h5>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h5>
-                            <p style={{ fontWeight: "500", fontSize: "14px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
+                            <h6>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h6>
+                            <p style={{ fontWeight: "500", fontSize: "12px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
+                            <span style={{ color: "gray", fontWeight: "bold", fontSize: "12px" }}>5 months ago</span>
+                        </div>
+                    </div>
+
+                    <div className={styles.small__Screen__item}>
+                        <div className={styles.small__Screen__item__img}>
+                            <Image
+                                className={styles.Screen__img}
+                                src="/images/primeSeries.webp"
+                                alt="poster"
+                                height={100}
+                                width={130}
+                            />
+                        </div>
+                        <div className={styles.small__Screen__item__info}>
+                            <h6>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h6>
+                            <p style={{ fontWeight: "500", fontSize: "12px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
                             <span style={{ color: "gray", fontWeight: "bold", fontSize: "12px" }}>5 months ago</span>
                         </div>
                     </div>
@@ -48,25 +65,8 @@ const Trailers = (props) => {
                             />
                         </div>
                         <div className={styles.small__Screen__item__info}>
-                            <h5>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h5>
-                            <p style={{ fontWeight: "500", fontSize: "14px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
-                            <span style={{ color: "gray", fontWeight: "bold", fontSize: "12px" }}>5 months ago</span>
-                        </div>
-                    </div>
-
-                    <div className={styles.small__Screen__item}>
-                        <div className={styles.small__Screen__item__img}>
-                            <Image
-                                className={styles.Screen__img}
-                                src="/images/primeSeries.webp"
-                                alt="poster"
-                                height={125}
-                                width={125}
-                            />
-                        </div>
-                        <div className={styles.small__Screen__item__info}>
-                            <h5>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h5>
-                            <p style={{ fontWeight: "500", fontSize: "14px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
+                            <h6>Relive the tale of modern Americas heinous cannibal, as Monster: The Jeffrey Dahmer Story drops on Netflix</h6>
+                            <p style={{ fontWeight: "500", fontSize: "12px" }}>RELEASE DATE ON OTT: 21st September 2022GENRE: Lim....</p>
                             <span style={{ color: "gray", fontWeight: "bold", fontSize: "12px" }}>5 months ago</span>
                         </div>
                     </div>

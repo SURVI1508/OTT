@@ -22,3 +22,15 @@
     text-align: center;
     color: rgb(171, 171, 171);
 }
+
+
+@media (max-width:720px) {
+    .filter__main__div {
+        position: absolute;
+        bottom: 0;
+        flex-direction: row;
+        overflow: scroll;
+        width: 100% !important;
+        display: none;
+    }
+}

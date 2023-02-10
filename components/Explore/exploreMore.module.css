@@ -1,13 +1,26 @@
 .main__main__div {
-    width: 85% !important;
+    width: 90% !important;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding-left: 12rem;
+    margin-top: 1rem;
 }
 
 .main__main__div__container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    /* border: 2px solid red; */
 
+}
+
+.explore__more__card__container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
 .topSeries__big__slide__card {

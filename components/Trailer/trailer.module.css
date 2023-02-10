@@ -5,7 +5,7 @@
 .updatedToday__main__div__container {
     display: flex;
     flex-wrap: wrap !important;
-    flex-direction:row;
+    flex-direction: row;
     /* border: 2px solid red; */
     max-width: 100% !important;
 }
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .small__Screen__item {
@@ -47,15 +48,15 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.7rem 1rem;
     margin-bottom: 1rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     cursor: pointer;
 }
 
 .small__Screen__item__img {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 130px;
     border-radius: 0.5rem;
     overflow: hidden;
     background: #000;
@@ -69,4 +70,38 @@
 
 .small__Screen__item__info {
     max-width: 70%;
+}
+
+
+@media (max-width:720px) {
+    .updatedToday__main__div {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .updatedToday__main__div__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100% !important;
+        padding: 0.5rem;
+    }
+
+    .updatedToday__main__div__container__big__Screen {
+        height: 100% !important;
+        width: 100%;
+
+    }
+
+    .big__Screen__info {
+        padding: 0.5rem;
+    }
+    .updatedToday__main__div__container__small__Screen {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
 }
