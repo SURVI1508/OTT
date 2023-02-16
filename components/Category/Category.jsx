@@ -13,9 +13,9 @@ const Category = () => {
         fetch('https://sotb.cybertizedigital.com/api/v1/supercategories')
             .then(response => response.json())
             .then(data =>setCat(data['supercategories']))
-
     }, [])
-    console.log(catItems)
+    
+    // console.log(catItems)
     return (
         <div className={styles.category__main__div}>
             <Swiper
