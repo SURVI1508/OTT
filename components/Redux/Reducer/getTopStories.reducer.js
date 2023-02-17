@@ -2,14 +2,13 @@ const Model = {
     data: []
 };
 
-const GET_TOP_STORIES = (state = Model, acttion) => {
-    if (acttion.type === "GET_TOP_STORIES") {
+const GET_TOP_STORIES = (state = Model, action) => {
+    if (action.type === "GET_TOP_STORIES") {
         return {
             ...state,
-            data: acttion.payload,
+            data: action.payload,
         };
-    }
-    else {
+    } else {
         return state;
     }
 }

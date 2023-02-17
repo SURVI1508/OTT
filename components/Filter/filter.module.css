@@ -1,12 +1,13 @@
 .filter__main__div {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    height: 100% !important;
+    height: auto !important;
     width: 110px;
     display: flex;
     flex-direction: column;
     /* margin-left: 3rem; */
     border-radius: 0.3rem;
     overflow: hidden;
+    z-index: 100000;
 }
 
 .filter__item {
@@ -24,13 +25,18 @@
 }
 
 
-@media (max-width:720px) {
+@media (max-width:620px) {
+    .filter__item h5 {
+        display: none;
+    }
+
     .filter__main__div {
-        position: absolute;
-        bottom: 0;
+        position: fixed;
+        bottom: 0rem;
         flex-direction: row;
         overflow: scroll;
         width: 100% !important;
-        display: none;
+        background: #ffffff;
+
     }
 }

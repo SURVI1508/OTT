@@ -32,7 +32,7 @@ const Trailers = (props) => {
                     updates?.slice(0, 1).map((val, i) => {
                         return (
                             <>
-                                <div className={styles.updatedToday__main__div__container__big__Screen}>
+                                <div className={styles.updatedToday__main__div__container__big__Screen} key={i}>
                                     <Image
                                         src={val?.photo?.secure_url}
                                         alt="poster"
@@ -59,7 +59,7 @@ const Trailers = (props) => {
 
                             return (
                                 <>
-                                    <div className={styles.small__Screen__item}>
+                                    <div className={styles.small__Screen__item} key={i}>
                                         <div className={styles.small__Screen__item__img}>
                                             <Image
                                                 className={styles.Screen__img}

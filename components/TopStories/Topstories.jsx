@@ -1,14 +1,15 @@
 import styles from './topstories.module.css'
 import Image from 'next/image'
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-// Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
-import Trailers from '../Trailer/Trailers';
+
+
 import { useDispatch, useSelector } from 'react-redux';
 import GET_TOP_STORIES from '../Redux/Action/getTopStories.action'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+
+
 const Topstories = () => {
     const dispatch = useDispatch();
     const response = useSelector((response) => response.GET_TOP_STORIES.data.result);
@@ -18,7 +19,7 @@ const Topstories = () => {
         dispatch(GET_TOP_STORIES())
     }, [])
     // console.log(stories, "ooyy")
-    console.log(response, "heyy")
+    // console.log(response, "heyy")
 
     return (
         <>
@@ -39,7 +40,7 @@ const Topstories = () => {
                         response?.map((val, i) => {
                             return (
                                 <>
-                                    <SwiperSlide>
+                                    <SwiperSlide key={i}>
                                         <div className={styles.topSeries__image}>
                                             <img
                                                 src={val?.photo?.secure_url}
