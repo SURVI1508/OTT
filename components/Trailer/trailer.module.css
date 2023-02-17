@@ -106,4 +106,7 @@
         align-items: center;
         margin-top: 1.5rem;
     }
+    .small__Screen__item {
+        width: 95%;
+    }
 }

@@ -6,7 +6,6 @@
 .topSeries__image {
     height: 250px;
     width: 158px;
-    background: #000;
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -30,3 +29,13 @@
     padding: 0.3rem 1rem;
     box-sizing: border-box;
 }
+
+/* @media (max-width:620px) {
+    .swiper{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .topSeries__image {
+        height: 250px;
+    }
+} */

@@ -55,7 +55,7 @@ const Trailers = (props) => {
                 <div className={styles.updatedToday__main__div__container__small__Screen}>
 
                     {
-                                        updates?.slice(1,4).map((val, i) => {
+                        updates?.slice(1, 4).map((val, i) => {
 
                             return (
                                 <>
@@ -80,11 +80,6 @@ const Trailers = (props) => {
                             )
                         })
                     }
-
-
-
-
-
 
                 </div>
             </div>
